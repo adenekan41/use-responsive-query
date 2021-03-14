@@ -1,14 +1,11 @@
-import DummyClass from '../src/use-responsive-query';
+import useResponsiveQuery from '../src/use-responsive-query';
 
 /**
- * Dummy test
+ * Use Responsive Query
  */
-describe('Dummy test', () => {
+describe('Use Responsive Query', () => {
   it('works if true is truthy', () => {
+    const isLarge = useResponsiveQuery('(max-width: 778px)');
     expect(true).toBeTruthy();
-  });
-
-  it('DummyClass is instantiable', () => {
-    expect(new DummyClass()).toBeInstanceOf(DummyClass);
   });
 });
