@@ -16,14 +16,14 @@
 
 <br />
 
-### 🔍 [Try out the interactive Demo](https://codesandbox.io/embed/red-tdd-q45p3?fontsize=13&hidenavigation=1&theme=dark) on codesandbox
+### 🔍 [Try out the interactive Demo](https://codesandbox.io/s/use-responsive-query-1ep5q?file=/src/App.js) on codesandbox
 
 ## ⚡️About
 
-[Urley](https://github.com/adenekan41/use-responsive-query), An extremely
-powerful but easy to use hook for listening to media events in React. URQ create
-an experience of a javascript like **reactive accomodation** for your react
-application.
+[Use Responsive Query](https://github.com/adenekan41/use-responsive-query), An
+extremely powerful but easy to use hook for listening to media events in React.
+URQ create an experience of a javascript like **reactive accomodation** for your
+react application.
 
 ## ✨ Features
 
