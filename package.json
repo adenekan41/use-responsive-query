@@ -1,8 +1,19 @@
 {
   "name": "use-responsive-query",
-  "version": "0.0.0",
-  "description": "",
-  "keywords": [],
+  "version": "1.0.0",
+  "description": "An extremely powerful but easy to use hook for listening to media events in react.",
+  "keywords": [
+    "javascript",
+    "typescript",
+    "codewonders",
+    "js",
+    "ts",
+    "utility",
+    "media query",
+    "react",
+    "responsive"
+  ],
+  "homepage": "https://github.com/adenekan41/use-responsive-query#README",
   "main": "dist/use-responsive-query.umd.js",
   "module": "dist/use-responsive-query.es5.js",
   "typings": "dist/types/use-responsive-query.d.ts",
@@ -12,7 +23,7 @@
   "author": "Adenekan Wonderful <adenekanwonderful41@gmail.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/adenekan41/use-responsive-query"
   },
   "license": "MIT",
   "engines": {
