@@ -125,7 +125,5 @@ export default function App() {
 }
 ```
 
-## 📁 Documentation
-
 MIT © [codewonders.dev](https://codewonders.dev) &nbsp;&middot;&nbsp; GitHub
 [@adenekan41](https://github.com/adenekan41) > &nbsp;&middot;&nbsp;
