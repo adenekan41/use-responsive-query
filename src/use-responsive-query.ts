@@ -7,15 +7,7 @@ import isEqual from 'lodash.isequal';
 type MediaQueryOptions = 'xs' | 'sm' | 'md' | 'lg' | 'xl';
 type ReturnType = boolean | Error;
 
-interface QueryConfigs {
-  xs: string;
-  sm: string;
-  md: string;
-  lg: string;
-  xl: string;
-}
-
-const queryConfig = {
+const queryConfig: object = {
   xs: '320px',
   sm: '576px',
   md: '768px',
@@ -35,7 +27,7 @@ export const queryCheck = (queryString: string): boolean => {
 
 const useResponsiveQuery = (
   query: MediaQueryOptions | string,
-  config: QueryConfigs = queryConfig
+  config: object = queryConfig
 ): ReturnType => {
   const [matches, setMatches] = useState<boolean>(false);
   const parsedQuery = useRef<string | null>(null);
