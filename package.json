@@ -1,6 +1,6 @@
 {
   "name": "use-responsive-query",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "An extremely powerful but easy to use hook for listening to media events in react.",
   "keywords": [
     "javascript",

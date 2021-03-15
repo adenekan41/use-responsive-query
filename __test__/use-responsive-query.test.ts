@@ -1,6 +1,13 @@
-import useResponsiveQuery from '../src/use-responsive-query';
+/* -------------------------------------------------------------------------- */
+/*                            External Depednecies                            */
+/* -------------------------------------------------------------------------- */
+
 import { render, unmountComponentAtNode } from 'react-dom';
 import { act } from 'react-dom/test-utils';
+
+/* -------------------------- Internal Dependencie -------------------------- */
+import useResponsiveQuery from '../src/use-responsive-query';
+
 /**
  * Use Responsive Query
  */
@@ -8,7 +15,6 @@ let container: any = null;
 describe('Use Responsive Query', () => {
   beforeEach(() => {
     window.matchMedia = jest.fn();
-    // setup a DOM element as a render target
     container = document.createElement('div');
     document.body.appendChild(container);
   });
@@ -20,7 +26,7 @@ describe('Use Responsive Query', () => {
     container = null;
   });
 
-  it('works if true is truthy', async () => {
+  it('works if window match media is truthy', async () => {
     await act(async () => {
       render(useResponsiveQuery('md'), container);
     });

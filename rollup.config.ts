@@ -1,3 +1,6 @@
+/* -------------------------------------------------------------------------- */
+/*                            External Dependencies                           */
+/* -------------------------------------------------------------------------- */
 import resolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';
 import sourceMaps from 'rollup-plugin-sourcemaps';
@@ -5,6 +8,7 @@ import camelCase from 'lodash.camelcase';
 import typescript from 'rollup-plugin-typescript2';
 import json from 'rollup-plugin-json';
 
+/* -------------------------- internal Dependencies ------------------------- */
 const pkg = require('./package.json');
 
 const libraryName = 'use-responsive-query';
